@@ -6,11 +6,11 @@ import tensorflow as tf
 import pathlib
 tic = time.time()
 
-cat_path = r"C:\Users\giron\Desktop\ai_set\kagglecatsanddogs_3367a\PetImages\Cat"
-dog_path = r"C:\Users\giron\Desktop\ai_set\kagglecatsanddogs_3367a\PetImages\Dog"
+cat_path = r"PATHTOCATS"
+dog_path = r"PATHTODOGS"
 
-cat_set_path = pathlib.Path(r"C:\Users\giron\Desktop\ai_set\cat_set")
-dog_set_path = pathlib.Path(r"C:\Users\giron\Desktop\ai_set\dog_set")
+cat_set_path = pathlib.Path(r"PATHTOCATS")
+dog_set_path = pathlib.Path(r"PATHTODOGS")
 
 files = os.listdir(cat_path) 
 
